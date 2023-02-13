@@ -39,4 +39,5 @@ if __name__ == '__main__':
         with open(output_path, "w") as f:
             for key, value in make_list:
                 f.writelines(f"{key} {value}\n")
+                
                 print(key, value)
